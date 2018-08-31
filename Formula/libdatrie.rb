@@ -17,6 +17,7 @@ class Libdatrie < Formula
                           "--enable-shared"
     system "make", "install-am"
     system "make", "install-exec"
+    system "make", "install-strip"
   end
 
   test do
